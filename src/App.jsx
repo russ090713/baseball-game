@@ -18,7 +18,8 @@ const PLAYER_POOLS = {
     { name: "Sandy Alomar Jr", ba: 0.273, obp: 0.309, slg: 0.406 },
     { name: "J.T. Realmuto", ba: 0.278, obp: 0.339, slg: 0.453 },
     { name: "Gary Carter", ba: 0.262, obp: 0.335, slg: 0.439 },
-    { name: "Carlos Santana", ba: 0.246, obp: 0.365, slg: 0.432 }
+    { name: "Jason Kendall", ba: 0.288, obp: 0.366, slg: 0.369 },
+    { name: "Willson Contreras", ba: 0.255, obp: 0.349, slg: 0.466 }
   ],
   "1B": [
     { name: "Tony Perez", ba: 0.279, obp: 0.341, slg: 0.463 },
@@ -31,11 +32,12 @@ const PLAYER_POOLS = {
     { name: "Jim Thome", ba: 0.276, obp: 0.402, slg: 0.554 },
     { name: "Todd Helton", ba: 0.316, obp: 0.414, slg: 0.539 },
     { name: "Prince Fielder", ba: 0.283, obp: 0.382, slg: 0.506 },
-    { name: "Edwin Encarnacion", ba: 0.263, obp: 0.357, slg: 0.489 },
+    { name: "Carlos Santana", ba: 0.246, obp: 0.365, slg: 0.432 },
     { name: "Carlos Delgado", ba: 0.280, obp: 0.383, slg: 0.546 },
     { name: "Jeff Bagwell", ba: 0.297, obp: 0.408, slg: 0.540 },
     { name: "Frank Thomas", ba: 0.301, obp: 0.419, slg: 0.555 },
-    { name: "Vladimir Guerrero Jr", ba: 0.285, obp: 0.359, slg: 0.494 }
+    { name: "Vladimir Guerrero Jr", ba: 0.285, obp: 0.359, slg: 0.494 },
+    { name: "Matt Olson", ba: 0.249, obp: 0.331, slg: 0.508 }
   ],
   "2B": [
     { name: "Joe Morgan", ba: 0.271, obp: 0.392, slg: 0.427 },
@@ -49,10 +51,11 @@ const PLAYER_POOLS = {
     { name: "Brandon Phillips", ba: 0.275, obp: 0.319, slg: 0.422 },
     { name: "DJ LeMahieu", ba: 0.304, obp: 0.358, slg: 0.428 },
     { name: "Jason Kipnis", ba: 0.260, obp: 0.335, slg: 0.420 },
-    { name: "Jose Ramirez", ba: 0.278, obp: 0.355, slg: 0.490 },
+    { name: "Whit Merrifield", ba: 0.284, obp: 0.325, slg: 0.409 },
     { name: "Ryne Sandberg", ba: 0.285, obp: 0.344, slg: 0.452 },
     { name: "Craig Biggio", ba: 0.281, obp: 0.363, slg: 0.433 },
-    { name: "Carlos Baerga", ba: 0.291, obp: 0.332, slg: 0.433 }
+    { name: "Carlos Baerga", ba: 0.291, obp: 0.332, slg: 0.433 },
+    { name: "Ian Kinsler", ba: 0.269, obp: 0.333, slg: 0.438 }
   ],
   "3B": [
     { name: "Mike Schmidt", ba: 0.267, obp: 0.380, slg: 0.527 },
@@ -69,7 +72,8 @@ const PLAYER_POOLS = {
     { name: "Kris Bryant", ba: 0.272, obp: 0.376, slg: 0.488 },
     { name: "Alex Rodriguez", ba: 0.295, obp: 0.380, slg: 0.550 },
     { name: "Travis Fryman", ba: 0.274, obp: 0.336, slg: 0.439 },
-    { name: "Matt Williams", ba: 0.268, obp: 0.317, slg: 0.489 }
+    { name: "Jose Ramirez", ba: 0.278, obp: 0.355, slg: 0.490 },
+    { name: "Anthony Rendon", ba: 0.290, obp: 0.369, slg: 0.471 }
   ],
   SS: [
     { name: "Honus Wagner", ba: 0.328, obp: 0.391, slg: 0.467 },
@@ -85,8 +89,9 @@ const PLAYER_POOLS = {
     { name: "Omar Vizquel", ba: 0.272, obp: 0.336, slg: 0.352 },
     { name: "Trea Turner", ba: 0.302, obp: 0.353, slg: 0.471 },
     { name: "Carlos Correa", ba: 0.277, obp: 0.357, slg: 0.467 },
-    { name: "Asdrubal Cabrera", ba: 0.266, obp: 0.325, slg: 0.412 },
-    { name: "Bo Bichette", ba: 0.290, obp: 0.330, slg: 0.465 }
+    { name: "Tim Anderson", ba: 0.282, obp: 0.318, slg: 0.428 },
+    { name: "Bo Bichette", ba: 0.290, obp: 0.330, slg: 0.465 },
+    { name: "Dansby Swanson", ba: 0.254, obp: 0.324, slg: 0.433 }
   ],
   LF: [
     { name: "Ted Williams", ba: 0.344, obp: 0.482, slg: 0.634 },
@@ -103,7 +108,8 @@ const PLAYER_POOLS = {
     { name: "Eddie Rosario", ba: 0.275, obp: 0.315, slg: 0.464 },
     { name: "Rickey Henderson", ba: 0.279, obp: 0.401, slg: 0.419 },
     { name: "Kyle Schwarber", ba: 0.230, obp: 0.338, slg: 0.478 },
-    { name: "Marcell Ozuna", ba: 0.274, obp: 0.332, slg: 0.478 }
+    { name: "Marcell Ozuna", ba: 0.274, obp: 0.332, slg: 0.478 },
+    { name: "Randy Arozarena", ba: 0.255, obp: 0.331, slg: 0.435 }
   ],
   CF: [
     { name: "Willie Mays", ba: 0.302, obp: 0.384, slg: 0.557 },
@@ -120,7 +126,8 @@ const PLAYER_POOLS = {
     { name: "Torii Hunter", ba: 0.277, obp: 0.331, slg: 0.460 },
     { name: "Curtis Granderson", ba: 0.249, obp: 0.339, slg: 0.461 },
     { name: "Coco Crisp", ba: 0.269, obp: 0.330, slg: 0.405 },
-    { name: "Michael Bourn", ba: 0.266, obp: 0.330, slg: 0.365 }
+    { name: "Michael Bourn", ba: 0.266, obp: 0.330, slg: 0.365 },
+    { name: "Byron Buxton", ba: 0.244, obp: 0.312, slg: 0.468 }
   ],
   RF: [
     { name: "Babe Ruth", ba: 0.342, obp: 0.474, slg: 0.690 },
@@ -137,7 +144,8 @@ const PLAYER_POOLS = {
     { name: "Ronald Acuna Jr", ba: 0.281, obp: 0.372, slg: 0.516 },
     { name: "Shin-Soo Choo", ba: 0.275, obp: 0.377, slg: 0.441 },
     { name: "Nelson Cruz", ba: 0.279, obp: 0.348, slg: 0.524 },
-    { name: "Tony Gwynn", ba: 0.338, obp: 0.388, slg: 0.459 }
+    { name: "Tony Gwynn", ba: 0.338, obp: 0.388, slg: 0.459 },
+    { name: "Starling Marte", ba: 0.287, obp: 0.339, slg: 0.443 }
   ],
   DH: [
     { name: "David Ortiz", ba: 0.286, obp: 0.380, slg: 0.552 },
@@ -154,7 +162,8 @@ const PLAYER_POOLS = {
     { name: "Nelson Cruz", ba: 0.279, obp: 0.348, slg: 0.524 },
     { name: "Jose Canseco", ba: 0.266, obp: 0.353, slg: 0.515 },
     { name: "Mo Vaughn", ba: 0.293, obp: 0.383, slg: 0.523 },
-    { name: "Jim Rice", ba: 0.298, obp: 0.352, slg: 0.502 }
+    { name: "Jim Rice", ba: 0.298, obp: 0.352, slg: 0.502 },
+    { name: "Edwin Encarnacion", ba: 0.263, obp: 0.357, slg: 0.489 }
   ],
   SP: [
     { name: "Sandy Koufax", era: 2.76, whip: 1.11, kper9: 9.28 },
@@ -186,7 +195,9 @@ const PLAYER_POOLS = {
     { name: "John Smoltz", era: 3.33, whip: 1.18, kper9: 7.47 },
     { name: "Mike Mussina", era: 3.68, whip: 1.19, kper9: 7.11 },
     { name: "Roy Oswalt", era: 3.36, whip: 1.20, kper9: 7.50 },
-    { name: "Andy Pettitte", era: 3.85, whip: 1.35, kper9: 6.57 }
+    { name: "Andy Pettitte", era: 3.85, whip: 1.35, kper9: 6.57 },
+    { name: "Corbin Burnes", era: 3.01, whip: 1.01, kper9: 11.54 },
+    { name: "Walker Buehler", era: 3.16, whip: 1.02, kper9: 10.60 }
   ],
   RP: [
     { name: "Dennis Eckersley", era: 3.50, whip: 1.16, kper9: 6.66 },
@@ -208,7 +219,7 @@ const PLAYER_POOLS = {
     { name: "Zack Britton", era: 2.81, whip: 1.15, kper9: 8.75 },
     { name: "Wade Davis", era: 2.93, whip: 1.11, kper9: 11.37 },
     { name: "Brad Hand", era: 3.19, whip: 1.20, kper9: 11.82 },
-    { name: "Emmanuel Clase", era: 1.72, whip: 0.93, kper9: 7.97 },
+    { name: "Ryan Pressly", era: 2.98, whip: 1.09, kper9: 11.13 },
     { name: "Liam Hendriks", era: 2.84, whip: 1.00, kper9: 12.70 },
     { name: "Devin Williams", era: 1.83, whip: 0.79, kper9: 15.62 },
     { name: "Bob Wickman", era: 3.93, whip: 1.37, kper9: 5.99 },
@@ -272,25 +283,173 @@ function App() {
 
   const simulateGame = (lineup1, sp1, rp1, lineup2, sp2, rp2) => {
     let score1 = 0, score2 = 0;
+    let batterIndex1 = 0; // Track position in batting order
+    let batterIndex2 = 0;
 
-    for (let i = 0; i < 6; i++) {
-      lineup1.forEach(b => {
-        if (Math.random() < b.obp * (1.2 - sp2.era / 5)) {
-          score1 += Math.random() < (b.slg - b.ba) ? (Math.random() < 0.3 ? 2 : 1) : (Math.random() < 0.2 ? 1 : 0);
+    // Add game-day variance for each player (hot/cold day)
+    const variance1 = lineup1.map(() => 0.85 + Math.random() * 0.3); // 0.85 to 1.15 multiplier
+    const variance2 = lineup2.map(() => 0.85 + Math.random() * 0.3);
+    
+    // Add pitcher variance (good/bad outing)
+    const spVariance1 = 0.9 + Math.random() * 0.2; // 0.9 to 1.1
+    const spVariance2 = 0.9 + Math.random() * 0.2;
+    const rpVariance1 = [0.9 + Math.random() * 0.2, 0.9 + Math.random() * 0.2];
+    const rpVariance2 = [0.9 + Math.random() * 0.2, 0.9 + Math.random() * 0.2];
+
+    // Helper function to simulate a single at-bat
+    const simulateAtBat = (batter, batterVariance, pitcher, pitcherVariance) => {
+      // Adjust stats for game-day performance
+      const adjustedOBP = Math.min(0.550, batter.obp * batterVariance * (1.3 - (pitcher.era * pitcherVariance) / 6));
+      const adjustedSLG = batter.slg * batterVariance;
+      const adjustedBA = batter.ba * batterVariance;
+      
+      // Determine if batter reaches base
+      if (Math.random() > adjustedOBP) {
+        return { outcome: 'out', bases: 0, runs: 0 };
+      }
+      
+      // Batter reached base - determine hit type
+      const powerFactor = adjustedSLG - adjustedBA;
+      const rand = Math.random();
+      
+      if (rand < powerFactor * 0.35) {
+        // Home run
+        return { outcome: 'HR', bases: 4, runs: 1 };
+      } else if (rand < powerFactor * 0.55) {
+        // Extra base hit (double or triple)
+        if (Math.random() < 0.15) {
+          return { outcome: '3B', bases: 3, runs: 0 };
         }
-      });
-      lineup2.forEach(b => {
-        if (Math.random() < b.obp * (1.2 - sp1.era / 5)) {
-          score2 += Math.random() < (b.slg - b.ba) ? (Math.random() < 0.3 ? 2 : 1) : (Math.random() < 0.2 ? 1 : 0);
+        return { outcome: '2B', bases: 2, runs: 0 };
+      } else {
+        // Single or walk
+        return { outcome: '1B', bases: 1, runs: 0 };
+      }
+    };
+
+    // Simulate base runners advancing and scoring
+    const simulateBaseRunners = (bases, runners) => {
+      let runsScored = 0;
+      let newRunners = [...runners];
+      
+      if (bases === 4) {
+        // Home run - everyone scores
+        runsScored = 1 + runners.reduce((sum, r) => sum + r, 0);
+        newRunners = [0, 0, 0];
+      } else if (bases === 3) {
+        // Triple - everyone scores
+        runsScored = runners.reduce((sum, r) => sum + r, 0);
+        newRunners = [0, 0, 1];
+      } else if (bases === 2) {
+        // Double - runner on 1st to 3rd, runner on 2nd/3rd scores
+        runsScored = runners[1] + runners[2];
+        newRunners = [0, 1, runners[0]];
+      } else if (bases === 1) {
+        // Single - runner on 2nd/3rd scores, runner on 1st to 2nd
+        runsScored = runners[1] + runners[2];
+        if (Math.random() < 0.4 && runners[0] === 1) {
+          // 40% chance runner on 1st scores on single
+          runsScored += 1;
+          newRunners = [1, 0, 0];
+        } else {
+          newRunners = [1, runners[0], 0];
         }
-      });
+      }
+      
+      return { runsScored, newRunners };
+    };
+
+    // Simulate each half-inning
+    const simulateHalfInning = (lineup, lineupVariance, pitcher, pitcherVariance, batterIndex) => {
+      let outs = 0;
+      let runs = 0;
+      let runners = [0, 0, 0]; // [1st, 2nd, 3rd]
+      let currentBatterIndex = batterIndex;
+      let atBats = 0;
+      
+      while (outs < 3 && atBats < 50) { // Safety limit
+        const batter = lineup[currentBatterIndex];
+        const variance = lineupVariance[currentBatterIndex];
+        const result = simulateAtBat(batter, variance, pitcher, pitcherVariance);
+        
+        if (result.outcome === 'out') {
+          outs++;
+        } else {
+          const advancement = simulateBaseRunners(result.bases, runners);
+          runs += advancement.runsScored + result.runs;
+          runners = advancement.newRunners;
+        }
+        
+        currentBatterIndex = (currentBatterIndex + 1) % lineup.length;
+        atBats++;
+      }
+      
+      return { runs, newBatterIndex: currentBatterIndex };
+    };
+
+    // Simulate 9 innings
+    for (let inning = 1; inning <= 9; inning++) {
+      let pitcher1, pitcher2, pVariance1, pVariance2;
+      
+      if (inning <= 6) {
+        // Starting pitchers
+        pitcher1 = sp2;
+        pitcher2 = sp1;
+        pVariance1 = spVariance2;
+        pVariance2 = spVariance1;
+      } else if (inning <= 8) {
+        // First reliever
+        pitcher1 = rp2[0];
+        pitcher2 = rp1[0];
+        pVariance1 = rpVariance2[0];
+        pVariance2 = rpVariance1[0];
+      } else {
+        // Closer
+        pitcher1 = rp2[1];
+        pitcher2 = rp1[1];
+        pVariance1 = rpVariance2[1];
+        pVariance2 = rpVariance1[1];
+      }
+      
+      // Team 1 bats (top of inning)
+      const top = simulateHalfInning(lineup1, variance1, pitcher1, pVariance1, batterIndex1);
+      score1 += top.runs;
+      batterIndex1 = top.newBatterIndex;
+      
+      // Team 2 bats (bottom of inning)
+      // Skip bottom of 9th if Team 2 is winning
+      if (inning === 9 && score2 > score1) {
+        break;
+      }
+      
+      const bottom = simulateHalfInning(lineup2, variance2, pitcher2, pVariance2, batterIndex2);
+      score2 += bottom.runs;
+      batterIndex2 = bottom.newBatterIndex;
+      
+      // Walk-off check
+      if (inning === 9 && score2 > score1) {
+        break;
+      }
     }
-
-    for (let i = 0; i < 3; i++) {
-      const r1 = rp1[i < 2 ? 0 : 1];
-      const r2 = rp2[i < 2 ? 0 : 1];
-      lineup1.forEach(b => { if (Math.random() < b.obp * (1.1 - r2.era / 6)) score1 += Math.random() < 0.25 ? 1 : 0; });
-      lineup2.forEach(b => { if (Math.random() < b.obp * (1.1 - r1.era / 6)) score2 += Math.random() < 0.25 ? 1 : 0; });
+    
+    // Extra innings if tied
+    let extraInning = 10;
+    while (score1 === score2 && extraInning < 15) {
+      const pitcher1 = rp2[1];
+      const pitcher2 = rp1[1];
+      const pVariance1 = rpVariance2[1];
+      const pVariance2 = rpVariance1[1];
+      
+      const top = simulateHalfInning(lineup1, variance1, pitcher1, pVariance1, batterIndex1);
+      score1 += top.runs;
+      batterIndex1 = top.newBatterIndex;
+      
+      const bottom = simulateHalfInning(lineup2, variance2, pitcher2, pVariance2, batterIndex2);
+      score2 += bottom.runs;
+      batterIndex2 = bottom.newBatterIndex;
+      
+      if (score2 > score1) break;
+      extraInning++;
     }
 
     return { score1, score2 };
